@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week1", "Week1", "{42781053-C680-4324-8803-9B974C1AAE58}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week01", "Week01", "{42781053-C680-4324-8803-9B974C1AAE58}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1Examples", "Week1Examples\Week1Examples.csproj", "{48F4D240-46EA-4C42-BCAE-B366A162C518}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1UnitTests", "Week1UnitTests\Week1UnitTests.csproj", "{78FEE16A-B93C-461E-96B5-96834BAE4647}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{AAF37911-FA3B-4BF4-BCC2-A56A79CE627E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week02", "Week02", "{AAF37911-FA3B-4BF4-BCC2-A56A79CE627E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2Linq", "Week2Linq\Week2Linq.csproj", "{B4DEB44A-958D-4074-89D1-02BF9D256960}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2Lambda", "Week2Lambda\Week2Lambda.csproj", "{F2047CC0-DAF1-43B9-9F3E-76AB2B163D90}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{953EB81D-9B8F-4FE8-91C2-37908F095476}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week03", "Week03", "{953EB81D-9B8F-4FE8-91C2-37908F095476}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3ConstantExpressions", "Week3ConstantExpressions\Week3ConstantExpressions.csproj", "{2701EF3D-134A-46BD-B7C5-0D323ADA016C}"
 EndProject
@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3ExpressionVisitor", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3MethodCallExpressions", "Week3MethodCallExpressions\Week3MethodCallExpressions.csproj", "{CF0FF207-AB65-40AB-95FD-D7144310D46A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{902C70BF-BA9A-4CA4-B947-180C502B513C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week04", "Week04", "{902C70BF-BA9A-4CA4-B947-180C502B513C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4ReflectionConstructorInfo", "Week4ReflectionConstructorInfo\Week4ReflectionConstructorInfo.csproj", "{6767A5D7-3B1C-4950-AFDF-2DCB534AA618}"
 EndProject
@@ -39,7 +39,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4ClassMapExample", "Wee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4DynamicKeywordExample", "Week4DynamicKeywordExample\Week4DynamicKeywordExample.csproj", "{B08DFABC-223E-43A3-822D-9BD79EA2DEEB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week5", "Week5", "{610AD4C6-6F62-46BD-B22C-17090C863C7A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week05", "Week05", "{610AD4C6-6F62-46BD-B22C-17090C863C7A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5Attributes", "Week5Attributes\Week5Attributes.csproj", "{3C573724-404E-44B7-9098-718D916B9DBD}"
 EndProject
@@ -51,13 +51,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5SerializationCore", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week5XmlSerialization", "Week5XmlSerialization\Week5XmlSerialization.csproj", "{12AFA278-BC2B-4285-B6E9-C40968E6E0E9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week6", "Week6", "{0326877C-3969-4DFC-86ED-73E990324F6E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week06", "Week06", "{0326877C-3969-4DFC-86ED-73E990324F6E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6AsyncAwait", "Week6AsyncAwait\Week6AsyncAwait.csproj", "{BE8A4C9E-00A0-4D8F-B30E-A15FA6BDC5A9}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6CpuCode", "Week6CpuCode\Week6CpuCode.csproj", "{6FE69DB7-9E45-433C-AD44-50C5B844067A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6IoCode", "Week6IoCode\Week6IoCode.csproj", "{9B79923C-8200-42BC-A77B-BE5C88368E00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncExample", "ConsoleApp1\ConsoleApp1\AsyncExample.csproj", "{7610AAD0-B21F-4D08-A627-06AB86325C68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week6TaskWithExceptionAsyncVoid", "Week6TaskWithExceptionAsyncVoid\Week6TaskWithExceptionAsyncVoid.csproj", "{8BB31F4B-755B-400B-BD5D-D6F0FF6E61A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week07", "Week07", "{9181D7F2-3FF1-48AC-AE61-8C5FE72E2366}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +159,14 @@ Global
 		{9B79923C-8200-42BC-A77B-BE5C88368E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B79923C-8200-42BC-A77B-BE5C88368E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B79923C-8200-42BC-A77B-BE5C88368E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7610AAD0-B21F-4D08-A627-06AB86325C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7610AAD0-B21F-4D08-A627-06AB86325C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7610AAD0-B21F-4D08-A627-06AB86325C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7610AAD0-B21F-4D08-A627-06AB86325C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BB31F4B-755B-400B-BD5D-D6F0FF6E61A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BB31F4B-755B-400B-BD5D-D6F0FF6E61A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BB31F4B-755B-400B-BD5D-D6F0FF6E61A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BB31F4B-755B-400B-BD5D-D6F0FF6E61A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -180,6 +194,8 @@ Global
 		{BE8A4C9E-00A0-4D8F-B30E-A15FA6BDC5A9} = {0326877C-3969-4DFC-86ED-73E990324F6E}
 		{6FE69DB7-9E45-433C-AD44-50C5B844067A} = {0326877C-3969-4DFC-86ED-73E990324F6E}
 		{9B79923C-8200-42BC-A77B-BE5C88368E00} = {0326877C-3969-4DFC-86ED-73E990324F6E}
+		{7610AAD0-B21F-4D08-A627-06AB86325C68} = {0326877C-3969-4DFC-86ED-73E990324F6E}
+		{8BB31F4B-755B-400B-BD5D-D6F0FF6E61A3} = {0326877C-3969-4DFC-86ED-73E990324F6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93FEB80F-B86B-41D7-B4AA-7B2C21C5C200}
