@@ -1,0 +1,57 @@
+﻿@*
+    References:
+    ===========
+    Bootstrap
+        List group: https://getbootstrap.com/docs/4.0/components/list-group/
+        Overflow: https://getbootstrap.com/docs/4.4/utilities/overflow/
+        Button addons: https://getbootstrap.com/docs/4.0/components/input-group/#button-addons
+*@
+
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style>
+    .sender {
+        background-color: lightblue;
+    }
+
+    .recipient {
+        background-color: lightcoral;
+        margin-left: 5%;
+    }
+
+    .messageLi {
+        background-color: white;
+    }
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.1.4/signalr.min.js" integrity="sha256-LeAW7V38b1z8nHHlrckbnAfx5W4Ge57nDlsDz6GzJjc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="col-sm-8 col-sm-offset-4 mt-5">
+
+    <form id="msgForm">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" required autocomplete="off">
+        </div>
+        <div class="input-group mb-3">
+            <input id="userMessage" type="text" class="form-control" placeholder="Enter your message here!" autocomplete="off">
+            <div class="input-group-append">
+                <button id="btnSend" class="btn btn-outline-secondary" type="submit">Send</button>
+            </div>
+        </div>
+    </form>
+    <div class="border">
+        <ul id="chatHistory" class="list-group overflow-auto" style="max-height:400px; height:400px;">
+        </ul>
+    </div>
+</div>
+
