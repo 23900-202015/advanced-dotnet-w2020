@@ -13,6 +13,10 @@
     ViewData["Title"] = "Home page";
 }
 <style>
+    .systemUser {
+        background-color: grey;
+    }
+
     .sender {
         background-color: lightblue;
     }
@@ -52,6 +56,12 @@
     <div class="border">
         <ul id="chatHistory" class="list-group overflow-auto" style="max-height:400px; height:400px;">
         </ul>
+    </div>
+    <div class="input-group mb-3">
+        <input id="roomName" type="text" class="form-control" placeholder="Enter room name!" autocomplete="off">
+        <div class="input-group-append">
+            <button id="btnJoin" class="btn btn-outline-secondary" type="button">Join Room</button>
+        </div>
     </div>
 </div>
 
